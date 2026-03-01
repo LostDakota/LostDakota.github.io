@@ -68,6 +68,9 @@ model:
 
 ## The Result
 
+![Frigate Dashboard showing low CPU usage and TensorRT detection](/assets/frigate-stats.png)
+*Fig 1. Frigate Dashboard showing low CPU usage and TensorRT detection (sub-10ms inference).*
+
 **Stats:**
 -   **CPU Usage:** Dropped from ~60% to ~5%.
 -   **Inference Speed:** Consistent <10ms response times.

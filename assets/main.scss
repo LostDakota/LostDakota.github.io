@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// Override variables
+$brand-color:        #5a6e7c;
+$grey-color:         #828282;
+$grey-color-light:   lighten($grey-color, 40%);
+$grey-color-dark:    darken($grey-color, 25%);
+
+// Custom Styles
+.site-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid $grey-color-light;
+}
+
+.site-title {
+  color: $grey-color-dark !important;
+}
+
+.site-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid $grey-color-light;
+}
+
+// Fix H1 issue (if duplicate) - Ensure post title is the only H1
+h1.post-title {
+  color: $brand-color;
+}
