@@ -1,0 +1,13 @@
+title: The Scrappy Engineer
+email: drew@mika-automation.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Actionable Open Source. Maximizing aging hardware. Solving problems with code, not credit cards.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mika-automation.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: LostDakota
+kofi_username:  # Update this with your actual Ko-fi username
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
