@@ -42,7 +42,7 @@ Ollama will automatically download the Llama 3 model (if not already present) an
 
 ## Optimizing Performance: The Hardware Factor
 
-While Llama 3 is impressive even on integrated graphics, running larger, more sophisticated models comfortably will benefit significantly from dedicated graphics hardware. A modern NVIDIA GPU, such as an RTX 3050 or higher, can dramatically improve inference speeds and enable you to run models with billions of parameters.
+While Llama 3 is impressive even on integrated graphics, running larger, more sophisticated models comfortably will benefit significantly from dedicated graphics hardware. A budget NVIDIA GPU, such as an RTX 3050 or higher, can dramatically improve inference speeds and enable you to run models with billions of parameters.
 
 *   **Recommended GPUs:** Consider checking out various NVIDIA GPUs on Amazon to find one that fits your budget and performance needs. (As an Amazon Associate, I earn from qualifying purchases, which helps support these guides.)
 
