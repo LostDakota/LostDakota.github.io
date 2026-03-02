@@ -2,7 +2,7 @@
 ---
 @import "minima";
 
-/* Muted Tones Palette: 
+/* Muted Tones Palette:
    #cad2c5 (Ash Gray)
    #84a98c (Cambridge Blue)
    #52796f (Hooker's Green)
@@ -11,13 +11,13 @@
 */
 
 body {
-  background-color: #cad2c5;
   color: #2f3e46;
+  background-color: #f0f2ee; /* Tinted ash-gray for contrast */
 }
 
 .site-header {
   border-top: 5px solid #52796f;
-  background-color: #f0f2ee; /* Tinted ash-gray for contrast */
+  background-color: #cad2c5;
 }
 
 .site-title, .site-title:visited {
